@@ -14,10 +14,10 @@ createServer({
       transactions: [
         {
           id: 1,
-          title: 'Programador',
+          title: 'Notebook',
           type: 'deposit',
-          category: 'Dev',
-          amount: 6000,
+          category: 'Informática',
+          amount: 2000,
           createdAt: new Date('2023-04-10 10:00:00')
         }
       ]

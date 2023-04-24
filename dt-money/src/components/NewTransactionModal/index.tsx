@@ -1,4 +1,4 @@
-import { useState, FormEvent, useContext } from 'react'
+import { useState, FormEvent } from 'react'
 import closeImg from '../../assets/close.svg'
 import incomeImg from '../../assets/income.svg'
 import outcomeImg from '../../assets/outcome.svg'
