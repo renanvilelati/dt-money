@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img src="https://ik.imagekit.io/dzojbyqyz/Repo_Images/tela-1.png?updatedAt=1682300435914">
+    <img src="https://ik.imagekit.io/dzojbyqyz/capaaa.png?updatedAt=1713577677416">
    
 </h1>
 
