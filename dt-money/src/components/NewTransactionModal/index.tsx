@@ -73,7 +73,7 @@ export const NewTransactionModal = ({isOpen, onRequestClose}: NewTransactionModa
 
     <TransactionTypeContainer>      
       <RadioBox 
-      isActive={type === 'withdraw'}
+      isActive={type === 'deposit'}
       activeColor='green'
       type='button'
       onClick={ () => setType('deposit')}>
@@ -82,7 +82,7 @@ export const NewTransactionModal = ({isOpen, onRequestClose}: NewTransactionModa
       </RadioBox>
 
       <RadioBox 
-      isActive={type === 'deposit'}
+      isActive={type === 'withdraw'}
       activeColor='red'
       type='button'
       onClick={ () => setType('withdraw')}>

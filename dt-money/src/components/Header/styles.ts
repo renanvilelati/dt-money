@@ -14,10 +14,14 @@ export const Content = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  h2 {
+    color: #F5F5F5;
+  }
+
   button {
     font-size: 1rem;
     color: #fff;
-    background: var(--blue-light);
+    background: var(--orange);
     border: 0;
     padding: 0 2rem;
     border-radius: 4px;
@@ -27,5 +31,11 @@ export const Content = styled.div`
     &:hover {
       filter: brightness(0.9)
     }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 10rem;
   }
 `
